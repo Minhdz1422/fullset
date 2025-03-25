@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ẩm Thực Việt Nam</title>
+    <style>
+        body {
+            font-family: Optima, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #F2AE66;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header img {
+            width: 100px; /* Điều chỉnh kích thước logo */
+            height: auto;
+            display: block;
+            margin: 0 auto 10px; /* Giữa logo và tiêu đề */
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .dish {
+            background-color: white;
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            overflow: hidden;
+        }
+        .dish img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .dish-info {
+            padding: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Chèn logo vào đây -->
+        <img src="https://img.lovepik.com/png/20231121/an-illustration-of-london-s-clock-tower-in-light-pink_660460_wh1200.png" alt="TỔ 3">
+        <h1>Chào Mừng Đến Ẩm Thực Việt Nam!</h1>
+        <p>Khám phá hương vị độc đáo của các món ăn Việt Nam</p>
+    </header>
+
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#moi-mon-an">Món ăn nổi bật</a>
+        <a href="#lien-he">Liên hệ</a>
+    </nav>
+
+    <section id="gioi-thieu">
+        <h2>Giới thiệu về Ẩm Thực Việt Nam</h2>
+        <p>Ẩm thực Việt Nam là một trong những nền ẩm thực phong phú và đa dạng nhất thế giới, mang đậm dấu ấn văn hóa và truyền thống lâu đời của từng vùng miền. Với hơn 4.000 năm lịch sử, 
+        ẩm thực Việt Nam không chỉ nổi bật bởi sự kết hợp tinh tế giữa các nguyên liệu tươi ngon, mà còn bởi cách chế biến khéo léo, tạo nên những món ăn hấp dẫn và độc đáo.</p>
+    </section>
+
+    <section id="moi-mon-an">
+        <h2>Món ăn nổi bật</h2>
+        <div class="content-container">
+            <div class="dish">
+                <img src="https://media.vneconomy.vn/w800/images/upload/2024/01/13/phos-1920x1280.jpg" alt="Phở">
+                <div class="dish-info">
+                    <h3>Phở</h3>
+                    <p>Phở là một món súp nổi tiếng của Việt Nam, được làm từ nước dùng đậm đà với thịt bò hoặc thịt gà, ăn kèm với bánh phở và các gia vị tươi.</p>
+                </div>
+            </div>
+            <div class="dish">
+                <img src="https://product.hstatic.net/200000567755/product/banh_mi_nam_nuong_1_giac_da_doi_2_1f6a3c07e26647b7892757f0bc54b494_master.png" alt="Bánh Mì">
+                <div class="dish-info">
+                    <h3>Bánh Mì</h3>
+                    <p>Bánh mì là món ăn nổi tiếng với phần bánh mì giòn bên ngoài, mềm bên trong, kết hợp với thịt nướng, chả, và các loại rau sống.</p>
+                </div>
+            </div>
+            <div class="dish">
+                <img src="https://monngonmoingay.com/wp-content/uploads/2021/05/bun-gan-bo-500.jpg" alt="Bún Bò Huế">
+                <div class="dish-info">
+                    <h3>Bún Bò Huế</h3>
+                    <p>Bún bò Huế là món ăn đặc sản của Huế với nước dùng cay nồng, thịt bò mềm và bún sợi lớn, rất thích hợp cho những ngày lạnh.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lien-he">
+        <h2>Liên hệ</h2>
+        <p>Chúng tôi rất vui được chia sẻ với bạn về ẩm thực Việt Nam! Hãy liên hệ với chúng tôi để biết thêm thông tin hoặc yêu cầu đặt món.</p>
+        <p>Được thực hiện bởi Tổ 3: Thắng , Sáng , G.Minh , Quý , Huy, An   </p>
+        <p>Email: amthucviet@contact.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ẩm Thực Việt Nam. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
